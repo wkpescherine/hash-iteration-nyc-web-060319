@@ -1,7 +1,7 @@
 require_relative "../lib/birthday.rb"
 
 describe "#happy_birthday" do
-  pending it "prints out a birthday message to each kid in the birthday_kids hash" do
+  it "prints out a birthday message to each kid in the birthday_kids hash" do
     birthday_kids = {
       "Timmy" => 9,
       "Sarah" => 6,
@@ -15,7 +15,7 @@ end
 
 ## BONUS ##
 describe "#age_appropriate_birthday" do
-  it "only prints the birthday greeting if the birthday kid 12 or younger" do
+  pending it "only prints the birthday greeting if the birthday kid 12 or younger" do
     birthday_kids = {
       "Timmy" => 9,
       "Sarah" => 6,
